@@ -921,11 +921,12 @@ emailjs.send('service_st8hmyl', 'template_lw7g0ln', templateParams, 'gDuAkVrU7xg
       swal( "Failed to Send");
        console.log('FAILED...', error);
     });
+    document.getElementById('name').value = "";
+  document.getElementById('email').value = "";
+  document.getElementById('subject').value = "";
+  document.getElementById('message').value = "";
+
   });
-  documet.getElementById('name').value = "";
-  documet.getElementById('email').value = "";
-  documet.getElementById('subject').value = "";
-  documet.getElementById('message').value = "";
   }
   </script>
 
